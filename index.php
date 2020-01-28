@@ -79,6 +79,8 @@ and open the template in the editor.
                 foreach ($array_sides as $sides) {
                     $css_pixel = ".margin-$sides-$i-px{margin-$sides:" . $i . "px;}";
                     $data = $css_pixel;
+
+                    //fwrite() writes the contents of string to the file stream pointed to by handle. 
                     fwrite($handle, $data);
                 }
             }
@@ -93,6 +95,8 @@ and open the template in the editor.
             for ($i = 1; $i <= $limit; $i++) {
                 $css_pixel = ".font-size-$i-px{font-size:" . $i . "px;}";
                 $data = $css_pixel;
+
+                //fwrite() writes the contents of string to the file stream pointed to by handle. 
                 fwrite($handle, $data);
             }
         }
