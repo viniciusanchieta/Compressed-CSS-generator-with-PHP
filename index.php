@@ -8,7 +8,7 @@ and open the template in the editor.
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Compressed CSS generator with PHP</title>
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/font-size.min.css">
